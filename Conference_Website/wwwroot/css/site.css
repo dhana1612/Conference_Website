@@ -1,0 +1,76 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f0f8ff;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+header {
+    background-image: url("../Images/Photo5.jpg");
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-image: url("../Images/Photo5.jpg");
+    z-index:2;
+}
+
+.startbutton {
+    border-radius: 30px;  
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid white;
+    }
+
+.form-control:focus {
+        background-color: transparent;
+        border: none; /* Remove all borders on focus */
+    }
+
+.placeholder-white::placeholder {
+    color: white;
+    opacity: 1; 
+}
+
+.card {
+    z-index:1;
+}
+
+footer {
+    background-image: url('../Images/Photo15.jpg');
+}
+
+.card-img-top {
+    height: 250px; 
+    object-fit: cover;
+}

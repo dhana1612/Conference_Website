@@ -1,0 +1,185 @@
+﻿@model ContactForm
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!--Hero Section-->
+<Hero id="home">
+    <!-- Background Image Section -->
+    <div id="intro-example" class="img-fluid" style=" background-image: url('../Images/Photo2.jpg'); background-size: cover; background-position: center;  height: 100vh;  width: 100%; ">
+        <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
+            <div class="text-white text-start px-3">
+                <h1 class="mb-3 display-6">
+                    International Conference on Computing, Networking
+                    <br />
+                    and Data Science
+                </h1>
+                <a class="btn btn-outline-light btn-lg m-2 startbutton" href="" role="button" rel="nofollow">
+                    Let start
+                </a>
+            </div>
+        </div>
+    </div>
+</Hero>
+
+<!--About Section-->
+<section class="about-us-countdown-area section-padding-100-0 pt-4 pb-2" id="about">
+    <div class="container pt-5 pb-2">
+        <h5 class="text-uppercase text-primary fs-3">About Conference</h5>
+
+        <div class="row  mb-3 ">
+            <!-- About Content -->
+            <div class="col-lg-7 col-md-12">
+                <div class="about-content-text mb-4 mt-4 about_us">
+                    <h3 class="fs-3 text-info">Welcome to the Project Management</h3>
+                    <p class="fs-4" style="text-indent: 55px; text-align: justify">
+                        The International Conference on Computing, Networking, and Data Science (ICCNDS 2025) is a premier forum for researchers, academicians, industry professionals, and students to exchange ideas, share insights, and explore the latest advancements in the fields of computing, networking, and data science.
+                    </p>
+                    <p class="fs-4" style="text-indent: 55px; text-align: justify">
+                        As digital transformation continues to reshape industries, the role of artificial intelligence, big data, cloud computing, and advanced networking has become more critical than ever. ICCNDS 2025 provides a unique platform to discuss emerging technologies, groundbreaking research, and industry trends that will shape the future of digital innovation.
+                    </p>
+                    <div class="text-start mt-4">
+                        <button class="btn btn-primary px-4 py-2 fw-bold">Intrested</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="col-lg-5 col-md-12 d-flex justify-content-center mt-4 mt-lg-0">
+                <img src="../Images/Photo1.png" alt="AI Image" class="img-fluid ">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Speaker Section-->
+<section class="p-5" style="background-image: url('../Images/Photo14.jpg');" id="speaker">
+    <div class="container p-2">
+        <h2 class="text-center text-white mb-4">Topic Speaker</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card shadow-lg d-flex flex-column h-100">
+                    <img src="Images/Person1 (1).jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Take part in specialized workshops led by experts, providing practical insights and strategies to enhance your skills. Engage with peers  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg d-flex flex-column h-100">
+                    <img src="Images/Person1 (2).jpg" class="card-img-top" alt="Palm Springs Road" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Take part in specialized workshops led by experts, providing practical insights and strategies to enhance your skills. Engage with peers during networking sessions designed to foster collaboration and professional growth</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg d-flex flex-column h-100">
+                    <img src="Images/Person1 (3).jpg" class="card-img-top" alt="Los Angeles Skyscrapers" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural lead-in to
+                            additional content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg d-flex flex-column h-100">
+                    <img src="Images/Person1 (4).jpg" class="card-img-top" alt="Los Angeles Skyscrapers" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural lead-in to
+                            additional content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-primary px-4 py-2 fw-bold">More</button>
+        </div>
+    </div>
+</section>
+
+<!--Contact Section-->
+<section class="contact-our-area py-3" id="contact" style="background-image: url('../Images/Photo6.jpg'); background-size: cover; background-position: center;">
+    <div class="container p-5">
+        <div class="row">
+            <!-- Heading -->
+            <div class="col-12">
+                <div class="mb-4">
+                    <p class="text-info fs-3 py-2" style="padding-left: 25%;">Any concerns?</p>
+                    <h5 class="text-uppercase text-black fs-4 pb-4" style="padding-left: 25%;">Contact Us</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gy-4 justify-content-between mx-3">
+            <!-- Contact Form -->
+            <div class="col-12 col-md-7" id="contact-form">
+                <div class="contact_form_area">
+                    <form method="post" id="main_contact_form">
+                        <div class="row gy-3 ">
+                            <!-- First Name -->
+                            <div class="col-12 col-md-6">
+                                <input asp-for="FirstName" class="form-control text-white fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name" />
+                            </div>
+                            <!-- Last Name -->
+                            <div class="col-12 col-md-6">
+                                <input asp-for="LastName" class="form-control text-white fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name" />
+                            </div>
+                            <!-- Email -->
+                            <div class="col-12 col-md-6">
+                                <input asp-for="Email" class="form-control text-white fs-5 placeholder-white" name="email" id="email" placeholder="E-mail" />
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="col-12 col-md-6">
+                                <input asp-for="PhoneNumber" class="form-control text-white fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number" />
+                            </div>
+                            <!-- Message -->
+                            <div class="col-12">
+                                <input asp-for="Message" class="form-control text-white fs-5 placeholder-white" id="message" placeholder="Your Message *"></textarea>
+                            </div>
+                            <!-- Submit Button -->
+                            <div class="col-12 text-end">
+                                <div class=" mt-4">
+                                    <button asp-controller="ContactForm" asp-action="ContactForm" class="btn btn-primary px-4 py-2 fw-bold">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--Contact Information
+                <div class="col-12 col-md-4">
+                <div class="contact-information">
+                    <div class="mb-3">
+                        <p class="mb-1 text-warning fw-bold">Address:</p>
+                        <h5 class="text-white">184 Main Collins Street</h5>
+                    </div>
+                    <div class="mb-3">
+                        <p class="mb-1 text-warning fw-bold">Phone:</p>
+                        <h5 class="text-white">(226) 446 9371</h5>
+                    </div>
+                    <div class="mb-3">
+                        <p class="mb-1 text-warning fw-bold">Email:</p>
+                        <h5 class="text-white">confer@gmail.com</h5>
+                    </div>
+                    <div class="mb-3">
+                        <p class="mb-1 text-warning fw-bold">Website:</p>
+                        <h5 class="text-white">www.confer.com</h5>
+                    </div>
+                </div>
+            </div>
+             -->
+        </div>
+    </div>
+</section>
