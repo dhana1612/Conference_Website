@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\author_s_desk\\conference_tracks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\author_s_desk\\conference_tracks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\aboutus\\scope_of_conference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\aboutus\\scope_of_conference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +34,29 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Conference_Website\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Conference_Website\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-02T00:12:01.691Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Conference_tracks.cshtml",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Conference_tracks.cshtml",
-              "RelativeDocumentMoniker": "Conference_Website\\Views\\Author_s_Desk\\Conference_tracks.cshtml",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Conference_tracks.cshtml",
-              "RelativeToolTip": "Conference_Website\\Views\\Author_s_Desk\\Conference_tracks.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACrAAAAAAAAAA==",
+              "Title": "Scope_of_Conference.cshtml",
+              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\AboutUs\\Scope_of_Conference.cshtml",
+              "RelativeDocumentMoniker": "Conference_Website\\Views\\AboutUs\\Scope_of_Conference.cshtml",
+              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\AboutUs\\Scope_of_Conference.cshtml",
+              "RelativeToolTip": "Conference_Website\\Views\\AboutUs\\Scope_of_Conference.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T23:45:39.087Z",
+              "WhenOpened": "2025-02-02T00:09:24.39Z",
               "EditorCaption": ""
             }
           ]

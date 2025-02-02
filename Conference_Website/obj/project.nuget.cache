@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "V8Wj7yqtfgI=",
+  "dgSpecHash": "Vz8PGFvU79w=",
   "success": true,
   "projectFilePath": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Conference_Website.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Morning Shift\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-rc.1.24452.12\\microsoft.net.sdk.compilers.toolset.9.0.100-rc.1.24452.12.nupkg.sha512",
     "C:\\Users\\Morning Shift\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\8.0.8\\microsoft.netcore.app.host.win-x86.8.0.8.nupkg.sha512"
   ],
   "logs": []
