@@ -4,10 +4,6 @@ namespace Conference_Website.Controllers
 {
     public class Author_s_DeskController : Controller
     {
-        public IActionResult Conference_tracks()
-        {
-            return View();
-        }
 
         public IActionResult Journal_Publication()
         {

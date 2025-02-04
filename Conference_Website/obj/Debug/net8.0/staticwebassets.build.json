@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jl9Wfd4BW/7J2/4n1FSxvSCv5DZDoQUexgeDohMzcPo=",
+  "Hash": "A4dSJ+ZG84b0XDk2s63M/pUqvEupSKwXbvl830/rlxw=",
   "Source": "Conference_Website",
   "BasePath": "_content/Conference_Website",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "guy0aoaoir",
-      "Integrity": "aPqajgBwNgsC9zZHGnNmRj57F8QtCbN4huaEVhEt5NQ=",
+      "Fingerprint": "2pdws2kz7p",
+      "Integrity": "VvE01pE3eW9CAw/cW7RXnFGqjBHEZzBXiMiMGMLZrGY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2052,6 +2052,51 @@
       ]
     },
     {
+      "Route": "css/site.2pdws2kz7p.css",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VvE01pE3eW9CAw/cW7RXnFGqjBHEZzBXiMiMGMLZrGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 16:08:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pdws2kz7p"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VvE01pE3eW9CAw/cW7RXnFGqjBHEZzBXiMiMGMLZrGY="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2062,7 +2107,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1380"
+          "Value": "1381"
         },
         {
           "Name": "Content-Type",
@@ -2070,11 +2115,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aPqajgBwNgsC9zZHGnNmRj57F8QtCbN4huaEVhEt5NQ=\""
+          "Value": "\"VvE01pE3eW9CAw/cW7RXnFGqjBHEZzBXiMiMGMLZrGY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 00:16:36 GMT"
+          "Value": "Mon, 03 Feb 2025 16:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2084,52 +2129,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aPqajgBwNgsC9zZHGnNmRj57F8QtCbN4huaEVhEt5NQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.guy0aoaoir.css",
-      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1380"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPqajgBwNgsC9zZHGnNmRj57F8QtCbN4huaEVhEt5NQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 00:16:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "guy0aoaoir"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aPqajgBwNgsC9zZHGnNmRj57F8QtCbN4huaEVhEt5NQ="
+          "Value": "sha256-VvE01pE3eW9CAw/cW7RXnFGqjBHEZzBXiMiMGMLZrGY="
         }
       ]
     },

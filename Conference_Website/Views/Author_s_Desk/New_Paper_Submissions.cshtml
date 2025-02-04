@@ -1,3 +1,11 @@
+@model NewPaperSubmission
+
+@{
+    var message = TempData["Message"] as string;
+    var messageType = TempData["MessageType"] as string;
+}
+
+
 <!-- Background Image Section -->
 <div id="intro-example" class="img-fluid mt-5" style=" height: 50vh;  width: 100%; background-image: url('../Images/Photo17.jpeg'); background-size: cover; background-position: center; ">
     <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
@@ -8,3 +16,78 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+<div class="container my-5">
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert alert-@messageType">
+            @message
+        </div>
+    }
+
+
+    <h3 class="text-center fw-bold text-primary"><i class="bi bi-file-earmark-text"></i> Paper Submission</h3>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <div class="card shadow-lg border-0" style="background: linear-gradient(135deg, #ffffff, #f8f9fa); border-radius: 16px;">
+                <div class="card-body p-4">
+                    <form asp-controller="ContactForm" asp-action="NewPaperSubmission" method="post" enctype="multipart/form-data" novalidate>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-file-earmark-text"></i> Paper Title:</label>
+                            <input type="text" class="form-control border-primary shadow-sm" name="Papertitle" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-person"></i>Author Full Name:</label>
+                            <input type="text" class="form-control border-primary shadow-sm" name="AuthorFullName" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-telephone"></i>Author Mobile Number:</label>
+                            <input type="tel" class="form-control border-primary shadow-sm" name="AuthorMobile" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-envelope"></i>Author Email Address:</label>
+                            <input type="email" class="form-control border-primary shadow-sm" name="AuthorEmail" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-building"></i>Author Institution Name:</label>
+                            <input type="text" class="form-control border-primary shadow-sm" name="AuthorInstitution" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-ui-checks"></i>Author Category:</label>
+                            <select name="AuthorCategory" class="form-select border-primary shadow-sm" required>
+                                <option value="">-- Select Category --</option>
+                                <option value="student">Student</option>
+                                <option value="faculty">Faculty</option>
+                                <option value="researcher">Researcher</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+                        <div class="mb-5">
+                            <label class="form-label fw-semibold"><i class="bi bi-upload"></i> Upload Paper :</label>
+                            <input type="file" name="PaperFile" class="form-control border-primary shadow-sm" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary fw-bold btn-lg shadow"
+                                    style="background: linear-gradient(135deg, #007bff, #0056b3); border-radius: 8px;">
+                                <i class="bi bi-send"></i> Submit Paper
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+ 

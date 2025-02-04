@@ -18,6 +18,18 @@ namespace Conference_Website.Controllers
             return View();
         }
 
+
+        public IActionResult Speaker()
+        {
+            return View();
+        }
+
+        public IActionResult contact()
+        {
+            return View();
+        }
+
+
         public IActionResult Privacy()
         {
             return View();

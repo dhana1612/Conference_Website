@@ -3,6 +3,10 @@
     ViewData["Title"] = "Home Page";
 }
 
+@{
+    var message = TempData["Message"] as string;
+    var messageType = TempData["MessageType"] as string;
+}
 
 <!--Hero Section-->
 <Hero id="home">
@@ -104,7 +108,7 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <button class="btn btn-primary px-4 py-2 fw-bold">More</button>
+            <a class="btn btn-primary px-4 py-2 fw-bold" asp-action="Speaker" asp-controller="Home">More</a>
         </div>
     </div>
 </section>
@@ -115,6 +119,12 @@
         <div class="row">
             <!-- Heading -->
             <div class="col-12">
+                @if (!string.IsNullOrEmpty(message))
+                {
+                    <div class="alert alert-@messageType">
+                        @message
+                    </div>
+                }
                 <div class="mb-4">
                     <p class="text-info fs-3 py-2" style="padding-left: 25%;">Any concerns?</p>
                     <h5 class="text-uppercase text-black fs-4 pb-4" style="padding-left: 25%;">Contact Us</h5>
@@ -146,8 +156,9 @@
                             </div>
                             <!-- Message -->
                             <div class="col-12">
-                                <input asp-for="Message" class="form-control text-white fs-5 placeholder-white" id="message" placeholder="Your Message *"></textarea>
+                                <textarea asp-for="Message" class="form-control text-white fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="4"></textarea>
                             </div>
+
                             <!-- Submit Button -->
                             <div class="col-12 text-end">
                                 <div class=" mt-4">
