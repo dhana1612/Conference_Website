@@ -77,19 +77,85 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
 .divider {
     width: 200px;
     height: 4px;
     background-color: white;
     border-radius: 2px;
 }
+
+
+
+
+
+
+
+
+.hero-section {
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.content-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+ .feature-box:hover {
+        transform: translateY(-5px);
+    }
+
+.feature-box h5 {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+.feature-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.feature-box ul {
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+}
+
+ .feature-box ul li::before {
+        content: "\2022";
+        color: #007bff;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+
+
+
+
+
+
 
 

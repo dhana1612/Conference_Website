@@ -1,5 +1,14 @@
 ﻿@model ContactForm
+@{
+    ViewData["Title"] = "Contact us";
+}
 
+<!-- Background Image Section -->
+<div id="intro-example" class="img-fluid " style=" height: 30vh; margin-top:70px; width: 100%; background-image: url('../Images/Photo22.jpg'); background-size: cover; background-position: center; ">
+    <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
+        
+    </div>
+</div>
 
 @{
     var message = TempData["Message"] as string;
@@ -7,7 +16,7 @@
 }
 
 <!--Contact Section-->
-<section class="contact-our-area py-3 mt-5" id="contact" style="background-image: url('../Images/Photo6.jpg'); background-size: cover; background-position: center;">
+<section class="contact-our-area py-3 " id="contact" style="background-image: url('../Images/Photo6.jpg'); background-size: cover; background-position: center;">
     <div class="container p-5">
         <div class="row">
             <!-- Heading -->

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Conference_Website</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Conference_Website.styles.css" asp-append-version="true" />
@@ -14,25 +14,27 @@
     <!--Navbar Section-->
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark w-100">
-            <div class="container-fluid ">
-                <a class="navbar-brand text-white fs-5 ps-3 ">ICCNDS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-5 ps-3" href="#">
+                    <img src="~/Images/logo.png" alt="ICCNDS Logo" height="50" class="me-2">
+                </a>
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
-                    <ul class="navbar-nav fs-5">
+                    <ul class="navbar-nav fs-5 align-items-center">
                         <li class="nav-item pe-2">
                             <a class="nav-link text-white" asp-action="Index" asp-controller="Home">Home</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 About Us
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#about">About the Conference</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="About_the_conference">About the Conference</a></li>
                                 <li><a class="dropdown-item" asp-controller="AboutUs" asp-action="Scope_of_Conference">Scope of Conference</a></li>
                                 <li><a class="dropdown-item" asp-controller="AboutUs" asp-action="Organizing_Committee">Organizing Committee</a></li>
                                 <li><a class="dropdown-item" asp-controller="AboutUs" asp-action="Editorial_Board">Editorial Board</a></li>
@@ -44,18 +46,17 @@
                                 Author's Desk
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-controller="Author_s_Desk" asp-action="Conference_tracks">Conference tracks</a></li>
                                 <li><a class="dropdown-item" asp-controller="Author_s_Desk" asp-action="Journal_Publication">Journal Publication</a></li>
                                 <li><a class="dropdown-item" asp-controller="Author_s_Desk" asp-action="Key_Dates">Key Dates</a></li>
                                 <li><a class="dropdown-item" asp-controller="Author_s_Desk" asp-action="Registration_Details">Registration Details</a></li>
                                 <li><a class="dropdown-item" asp-controller="Author_s_Desk" asp-action="New_Paper_Submissions">New Paper Submission</a></li>
                             </ul>
                         </li>
-              
+
                         <li class="nav-item pe-2">
                             <a class="nav-link text-white" asp-action="Speaker" asp-controller="Home">Speakers</a>
                         </li>
-                        
+
                         <li class="nav-item pe-2">
                             <a class="nav-link text-white" asp-action="contact" asp-controller="Home">Contact Us</a>
                         </li>
@@ -64,6 +65,7 @@
             </div>
         </nav>
     </header>
+
 
     <div class="container-fluid">
         <main role="main">

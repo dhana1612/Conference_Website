@@ -40,7 +40,6 @@ namespace Conference_Website
 
                 // Send the email
                 client.Send(newMail);
-
                 return true;
             }
             catch (Exception ex)

@@ -24,6 +24,11 @@ namespace Conference_Website.Controllers
             return View();
         }
 
+        public IActionResult About_the_conference()
+        {
+            return View();
+        }
+
         public IActionResult contact()
         {
             return View();

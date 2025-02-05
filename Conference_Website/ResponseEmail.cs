@@ -9,7 +9,7 @@ namespace Conference_Website
             try
             {
                 MailMessage newMail = new MailMessage();
-                SmtpClient client = new SmtpClient("smtp.gmail.com");
+                SmtpClient client = new SmtpClient("smtp.gmail.com");  
 
                 // Email is sent from the admin's email
                 newMail.From = new MailAddress("dhanasekar16.bit@gmail.com", "Response Email");
