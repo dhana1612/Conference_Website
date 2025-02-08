@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 @media (min-width: 768px) {
@@ -34,14 +35,12 @@ header {
     z-index:2;
 }
 
-.startbutton {
-    border-radius: 30px;  
-}
+
 
 .form-control {
     background-color: transparent;
     border: none;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid Black;
 }
 
 .form-control:hover,
@@ -49,16 +48,13 @@ header {
 .form-control:focus {
         background-color: transparent;
         border: none;
-        border-bottom: 3px solid white;
+        border-bottom: 3px solid black;
     }
 
-.form-control:focus {
-        background-color: transparent;
-        border: none; /* Remove all borders on focus */
-    }
+
 
 .placeholder-white::placeholder {
-    color: white;
+    color: black;
     opacity: 1; 
 }
 
@@ -75,8 +71,6 @@ footer {
     object-fit: cover;
 }
 
-
-
 .divider {
     width: 200px;
     height: 4px;
@@ -91,71 +85,34 @@ footer {
 
 
 
-.hero-section {
-    padding: 5rem 1rem;
-    text-align: center;
-}
-
-.content-box {
-    background: rgba(255, 255, 255, 0.2);
+.backdrop-blur {
     backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 2rem;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.section-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #007bff;
-}
-
-.feature-box {
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+.transition-transform:hover {
+    transform: translateY(-5px);
     transition: transform 0.3s ease-in-out;
-    text-align: center;
+}
+.newpapar, .scope{
+    text-align: justify;
+    text-indent: 40px;
 }
 
- .feature-box:hover {
-        transform: translateY(-5px);
-    }
 
-.feature-box h5 {
-        color: #007bff;
-        font-weight: bold;
-    }
 
-.feature-icon {
-    font-size: 2rem;
-    color: #007bff;
-    margin-bottom: 10px;
+
+
+
+
+
+/* Register button Hover Effect*/
+.startbutton:hover {
+    background-color: white !important;
 }
 
-.feature-box ul {
-    padding-left: 0;
-    list-style: none;
-    text-align: left;
-    display: inline-block;
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffcc00 !important; 
+    font-weight: bold;
 }
-
- .feature-box ul li::before {
-        content: "\2022";
-        color: #007bff;
-        font-weight: bold;
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
-    }
-
-
-
-
-
-
-
-
 

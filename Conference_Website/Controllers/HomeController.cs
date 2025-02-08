@@ -29,7 +29,7 @@ namespace Conference_Website.Controllers
             return View();
         }
 
-        public IActionResult contact()
+        public IActionResult Contact()
         {
             return View();
         }

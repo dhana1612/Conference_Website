@@ -16,20 +16,21 @@
 }
 
 <!--Contact Section-->
-<section class="contact-our-area py-3 " id="contact" style="background-image: url('../Images/Photo6.jpg'); background-size: cover; background-position: center;">
-    <div class="container p-5">
+<section class="contact-our-area pb-3" id="contact">
+    <div class="container pb-5 pt-4 text-black">
         <div class="row">
             <!-- Heading -->
             <div class="col-12">
-                @if (!string.IsNullOrEmpty(message))
-                {
-                    <div class="alert alert-@messageType">
-                        @message
+                <div class="mb-4 pt-5">
+                    <div class="mb-4 fs-5">
+                        @if (!string.IsNullOrEmpty(message))
+                        {
+                            <div class="alert alert-@messageType">
+                                @message
+                            </div>
+                        }
                     </div>
-                }
-                <div class="mb-4">
-                    <p class="text-info fs-3 py-2" style="padding-left: 25%;">Any concerns?</p>
-                    <h5 class="text-uppercase text-black fs-4 pb-4" style="padding-left: 25%;">Contact Us</h5>
+                    <h5 class="text-uppercase text-primary fs-3 fw-bold">Contact Us</h5>
                 </div>
             </div>
         </div>
@@ -42,57 +43,56 @@
                         <div class="row gy-3 ">
                             <!-- First Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="FirstName" class="form-control text-white fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name" />
+                                <input asp-for="FirstName" class="form-control fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name *" required/>
                             </div>
                             <!-- Last Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="LastName" class="form-control text-white fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name" />
+                                <input asp-for="LastName" class="form-control fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name *" required />
                             </div>
                             <!-- Email -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="Email" class="form-control text-white fs-5 placeholder-white" name="email" id="email" placeholder="E-mail" />
+                                <input asp-for="Email" class="form-control fs-5 placeholder-white" name="email" id="email" placeholder="E-mail *" required />
                             </div>
                             <!-- Phone Number -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="PhoneNumber" class="form-control text-white fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number" />
+                                <input asp-for="PhoneNumber" class="form-control fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number *" required />
                             </div>
                             <!-- Message -->
                             <div class="col-12">
-                                <textarea asp-for="Message" class="form-control text-white fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="4"></textarea>
+                                <textarea asp-for="Message" class="form-control fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="3" required></textarea>
                             </div>
 
                             <!-- Submit Button -->
-                            <div class="col-12 text-end">
+                            <div class="col-12 text-start">
                                 <div class=" mt-4">
-                                    <button asp-controller="ContactForm" asp-action="ContactForm" class="btn btn-primary px-4 py-2 fw-bold">Send Message</button>
+                                    <button asp-controller="ContactForm" asp-action="ContactForm1" class="btn btn-primary fs-5 px-4 py-2 fw-bold">Send Message</button>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <!--Contact Information
-                <div class="col-12 col-md-4">
+            <!--Contact Information -->
+            <div class="col-12 col-md-4">
                 <div class="contact-information">
                     <div class="mb-3">
-                        <p class="mb-1 text-warning fw-bold">Address:</p>
-                        <h5 class="text-white">184 Main Collins Street</h5>
+                        <h5 class="mb-1 text-primary fs-5 fw-bold">Address:</h5>
+                        <p class="fs-4">184 Main Collins Street</p>
                     </div>
                     <div class="mb-3">
-                        <p class="mb-1 text-warning fw-bold">Phone:</p>
-                        <h5 class="text-white">(226) 446 9371</h5>
+                        <h5 class="mb-1 text-primary fs-5 fw-bold">Phone:</h5>
+                        <p class="fs-4">(226) 446 9371</p>
                     </div>
                     <div class="mb-3">
-                        <p class="mb-1 text-warning fw-bold">Email:</p>
-                        <h5 class="text-white">confer@gmail.com</h5>
+                        <h5 class="mb-1 text-primary fs-5 fw-bold">Email:</h5>
+                        <p class="fs-4">confer@gmail.com</p>
                     </div>
-                    <div class="mb-3">
-                        <p class="mb-1 text-warning fw-bold">Website:</p>
-                        <h5 class="text-white">www.confer.com</h5>
-                    </div>
+                    
                 </div>
             </div>
-             -->
+
         </div>
+
+
     </div>
 </section>

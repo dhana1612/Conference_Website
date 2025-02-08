@@ -1,4 +1,4 @@
-@model NewPaperSubmission
+ @model NewPaperSubmission
 
 @{
     var message = TempData["Message"] as string;
@@ -14,7 +14,6 @@
     <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         <div class="text-white text-center px-3">
             <h2 class="fw-bold display-5 text-uppercase text-light">New Paper Submission</h2>
-            <p class="text-warning lead">Exploring Innovations in Computing, Networking, and Data Science</p>
             <div class="divider mx-auto my-3"></div>
         </div>
     </div>
@@ -22,43 +21,52 @@
 
 <div class="container my-5">
 
-    @if (!string.IsNullOrEmpty(message))
-    {
-        <div class="alert alert-@messageType">
-            @message
-        </div>
-    }
+    <div class="mb-4 fs-5">
+        @if (!string.IsNullOrEmpty(message))
+        {
+            <div class="alert alert-@messageType">
+                @message
+            </div>
+        }
+    </div>
 
-
-    <h3 class="text-center fw-bold text-primary"><i class="bi bi-file-earmark-text"></i> Paper Submission</h3>
     <div class="row justify-content-center">
+        <div class=" text-start px-3">
+            <h2 class="fw-bold text-start display-7 text-uppercase text-primary">Paper Submission</h2>
+
+        </div>
+        <p class="newpapar pb-4 fs-4">
+            Welcome to the paper submission portal. Please fill out the required details and upload your research paper for review.
+            Ensure that all information provided is accurate to facilitate smooth processing.
+        </p>
         <div class="col-lg-6 col-md-8">
+
             <div class="card shadow-lg border-0" style="background: linear-gradient(135deg, #ffffff, #f8f9fa); border-radius: 16px;">
-                <div class="card-body p-4">
-                    <form asp-controller="ContactForm" asp-action="NewPaperSubmission" method="post" enctype="multipart/form-data" novalidate>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold"><i class="bi bi-file-earmark-text"></i> Paper Title:</label>
-                            <input type="text" class="form-control border-primary shadow-sm" name="Papertitle" required>
+                <div class="card-body p-4 fs-5">
+                    <form asp-controller="ContactForm" asp-action="NewPaperSubmission" method="post" enctype="multipart/form-data">
+                        <div class="mb-4 fs-5">
+                            <label class="form-label fw-bold">Paper Title *</label>
+                            <input type="text" class="form-control border-primary shadow-sm fs-5" name="Papertitle" required>
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold"><i class="bi bi-person"></i>Author Full Name:</label>
-                            <input type="text" class="form-control border-primary shadow-sm" name="AuthorFullName" required>
+                        <div class="mb-4 fs-5">
+                            <label class="form-label fw-bold">Author Full Name *</label>
+                            <input type="text" class="form-control border-primary shadow-sm fs-5" name="AuthorFullName" required>
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold"><i class="bi bi-telephone"></i>Author Mobile Number:</label>
-                            <input type="tel" class="form-control border-primary shadow-sm" name="AuthorMobile" required>
+                        <div class="mb-4 fs-5">
+                            <label class="form-label fw-bold">Author Mobile Number *</label>
+                            <input type="tel" class="form-control border-primary shadow-sm fs-5" name="AuthorMobile" required min="10" maxlength="10">
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold"><i class="bi bi-envelope"></i>Author Email Address:</label>
-                            <input type="email" class="form-control border-primary shadow-sm" name="AuthorEmail" required>
+                        <div class="mb-4 fs-5">
+                            <label class="form-label fw-bold">Author Email Address *</label>
+                            <input type="email" class="form-control border-primary shadow-sm fs-5" name="AuthorEmail" required>
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold"><i class="bi bi-building"></i>Author Institution Name:</label>
-                            <input type="text" class="form-control border-primary shadow-sm" name="AuthorInstitution" required>
+                        <div class="mb-4 fs-5">
+                            <label class="form-label fw-bold">Author Institution Name *</label>
+                            <input type="text" class="form-control border-primary shadow-sm fs-5" name="AuthorInstitution" required>
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold"><i class="bi bi-ui-checks"></i>Author Category:</label>
-                            <select name="AuthorCategory" class="form-select border-primary shadow-sm" required>
+                        <div class="mb-4 fs-5">
+                            <label class="form-label fw-bold">Author Category *</label>
+                            <select name="AuthorCategory" class="form-select border-primary shadow-sm fs-5" required>
                                 <option value="">-- Select Category --</option>
                                 <option value="student">Student</option>
                                 <option value="faculty">Faculty</option>
@@ -66,9 +74,9 @@
                                 <option value="others">Others</option>
                             </select>
                         </div>
-                        <div class="mb-5">
-                            <label class="form-label fw-semibold"><i class="bi bi-upload"></i> Upload Paper :</label>
-                            <input type="file" name="PaperFile" class="form-control border-primary shadow-sm" required>
+                        <div class="mb-5 fs-5">
+                            <label class="form-label fw-bold"> Upload Paper *</label>
+                            <input type="file" name="PaperFile" class="form-control border-primary shadow-sm fs-5" required>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class="btn btn-primary fw-bold btn-lg shadow"
@@ -89,4 +97,3 @@
 
 
 
- 

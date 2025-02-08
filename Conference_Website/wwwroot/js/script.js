@@ -1,6 +1,6 @@
-﻿namespace Conference_Website.wwwroot.js
-{
-    public class script
-    {
-    }
-}
+﻿document.addEventListener("DOMContentLoaded", function() {
+     if (window.location.hash === "#contact") {
+         document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+     }
+});
+

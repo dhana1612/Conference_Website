@@ -32,4 +32,3 @@ C:\Users\Morning Shift\source\repos\Conference_Website\Conference_Website\obj\De
 C:\Users\Morning Shift\source\repos\Conference_Website\Conference_Website\obj\Debug\net8.0\Conference_Website.pdb
 C:\Users\Morning Shift\source\repos\Conference_Website\Conference_Website\obj\Debug\net8.0\Conference_Website.genruntimeconfig.cache
 C:\Users\Morning Shift\source\repos\Conference_Website\Conference_Website\obj\Debug\net8.0\ref\Conference_Website.dll
-C:\Users\Morning Shift\source\repos\Conference_Website\Conference_Website\bin\Debug\net8.0\Conference_Website.dll.config
