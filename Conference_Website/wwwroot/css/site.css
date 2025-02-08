@@ -36,7 +36,6 @@ header {
 }
 
 
-
 .form-control {
     background-color: transparent;
     border: none;
@@ -50,7 +49,6 @@ header {
         border: none;
         border-bottom: 3px solid black;
     }
-
 
 
 .placeholder-white::placeholder {
@@ -81,10 +79,6 @@ footer {
 
 
 
-
-
-
-
 .backdrop-blur {
     backdrop-filter: blur(10px);
 }
@@ -102,9 +96,6 @@ footer {
 
 
 
-
-
-
 /* Register button Hover Effect*/
 .startbutton:hover {
     background-color: white !important;
@@ -115,4 +106,6 @@ footer {
     color: #ffcc00 !important; 
     font-weight: bold;
 }
+
+
 

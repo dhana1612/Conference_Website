@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jKziJwupoc7tiCXZ1In/e/pRa8HapWXmsoGuGDeSA5o=",
+  "Hash": "flQoyudLcTwhq7vZQlamJW0AtLK028EILOVBfVZ8EYQ=",
   "Source": "Conference_Website",
   "BasePath": "_content/Conference_Website",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hatisq09xy",
-      "Integrity": "yeioMMowXzgXGcSmX+Z/e0Lpkq6fBvO4eXYmdRtpn9E=",
+      "Fingerprint": "4j76983z7w",
+      "Integrity": "oCRnwLp3R8Um8+aXGRV9lOxylucwnD0lPQSirJb3iYI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2346,6 +2346,51 @@
       ]
     },
     {
+      "Route": "css/site.4j76983z7w.css",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oCRnwLp3R8Um8+aXGRV9lOxylucwnD0lPQSirJb3iYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 18:50:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4j76983z7w"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oCRnwLp3R8Um8+aXGRV9lOxylucwnD0lPQSirJb3iYI="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2356,7 +2401,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1720"
+          "Value": "1706"
         },
         {
           "Name": "Content-Type",
@@ -2364,11 +2409,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yeioMMowXzgXGcSmX+Z/e0Lpkq6fBvO4eXYmdRtpn9E=\""
+          "Value": "\"oCRnwLp3R8Um8+aXGRV9lOxylucwnD0lPQSirJb3iYI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 00:46:14 GMT"
+          "Value": "Sat, 08 Feb 2025 18:50:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2378,52 +2423,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yeioMMowXzgXGcSmX+Z/e0Lpkq6fBvO4eXYmdRtpn9E="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.hatisq09xy.css",
-      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yeioMMowXzgXGcSmX+Z/e0Lpkq6fBvO4eXYmdRtpn9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 00:46:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hatisq09xy"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yeioMMowXzgXGcSmX+Z/e0Lpkq6fBvO4eXYmdRtpn9E="
+          "Value": "sha256-oCRnwLp3R8Um8+aXGRV9lOxylucwnD0lPQSirJb3iYI="
         }
       ]
     },
