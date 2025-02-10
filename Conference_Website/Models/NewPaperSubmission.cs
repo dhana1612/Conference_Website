@@ -10,7 +10,7 @@ namespace Conference_Website.Models
         [Required(ErrorMessage = "Author Full Name is required.")]
         public string AuthorFullName { get; set; }
 
-        [Required(ErrorMessage = "Phone Number is required.")]
+        [Required(ErrorMessage = "Author Number is required.")]
         public long AuthorMobile { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]

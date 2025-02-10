@@ -5,48 +5,8 @@
       "PackagePath": "staticwebassets\\Conference_Website.7zk5jc4hek.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Datacenter_server03.jpg",
-      "PackagePath": "staticwebassets\\Images\\Datacenter_server03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Person1 (1).jpg",
-      "PackagePath": "staticwebassets\\Images\\Person1 (1).jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Person1 (2).jpg",
-      "PackagePath": "staticwebassets\\Images\\Person1 (2).jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Person1 (3).jpg",
-      "PackagePath": "staticwebassets\\Images\\Person1 (3).jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Person1 (4).jpg",
-      "PackagePath": "staticwebassets\\Images\\Person1 (4).jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo0.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo0.jpg"
-    },
-    {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo1.png",
       "PackagePath": "staticwebassets\\Images\\Photo1.png"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo10.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo10.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo11.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo12.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo12.jpg"
     },
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo13.jpg",
@@ -73,60 +33,24 @@
       "PackagePath": "staticwebassets\\Images\\Photo18.jpeg"
     },
     {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo19.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo19.jpg"
-    },
-    {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo2.jpg",
       "PackagePath": "staticwebassets\\Images\\Photo2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo20.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo20.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo21.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo21.jpg"
     },
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo22.jpg",
       "PackagePath": "staticwebassets\\Images\\Photo22.jpg"
     },
     {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo3.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo4.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo4.jpg"
+      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo23.jpg",
+      "PackagePath": "staticwebassets\\Images\\Photo23.jpg"
     },
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo5.jpg",
       "PackagePath": "staticwebassets\\Images\\Photo5.jpg"
     },
     {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo7.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo8.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo9.jpg",
-      "PackagePath": "staticwebassets\\Images\\Photo9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\artificial-intelligence.jpg",
-      "PackagePath": "staticwebassets\\Images\\artificial-intelligence.jpg"
-    },
-    {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\logo.png",
       "PackagePath": "staticwebassets\\Images\\logo.png"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\photo6.jpg",
-      "PackagePath": "staticwebassets\\Images\\photo6.jpg"
     },
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\s1.jpg",
@@ -159,10 +83,6 @@
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\s8.jpg",
       "PackagePath": "staticwebassets\\Images\\s8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\v1.mov",
-      "PackagePath": "staticwebassets\\Images\\v1.mov"
     },
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",

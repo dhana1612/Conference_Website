@@ -3,12 +3,18 @@
     ViewData["Title"] = "Contact us";
 }
 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
 <!-- Background Image Section -->
 <div id="intro-example" class="img-fluid " style=" height: 30vh; margin-top:70px; width: 100%; background-image: url('../Images/Photo22.jpg'); background-size: cover; background-position: center; ">
     <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         
     </div>
 </div>
+
 
 @{
     var message = TempData["Message"] as string;
@@ -43,23 +49,28 @@
                         <div class="row gy-3 ">
                             <!-- First Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="FirstName" class="form-control fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name *" required/>
+                                <input asp-for="FirstName" class="form-control fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name *"/>
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
                             </div>
                             <!-- Last Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="LastName" class="form-control fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name *" required />
+                                <input asp-for="LastName" class="form-control fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name *" />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
                             </div>
                             <!-- Email -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="Email" class="form-control fs-5 placeholder-white" name="email" id="email" placeholder="E-mail *" required />
+                                <input asp-for="Email" class="form-control fs-5 placeholder-white" name="Email" id="email" placeholder="E-mail *" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
                             <!-- Phone Number -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="PhoneNumber" class="form-control fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number *" required />
+                                <input asp-for="PhoneNumber" class="form-control fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number *" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                             </div>
                             <!-- Message -->
                             <div class="col-12">
-                                <textarea asp-for="Message" class="form-control fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="3" required></textarea>
+                                <textarea asp-for="Message" class="form-control fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="3"></textarea>
+                                <span asp-validation-for="Message" class="text-danger"></span>
                             </div>
 
                             <!-- Submit Button -->
@@ -97,6 +108,7 @@
     </div>
 </section>
 
+<!--MapSection-->
 <div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308436.5138084717!2d79.09197384202913!3d12.941258620178797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3893a209c55b%3A0xb3649fe847b74dca!2sBrain%20Insight!5e1!3m2!1sen!2sin!4v1739039836803!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

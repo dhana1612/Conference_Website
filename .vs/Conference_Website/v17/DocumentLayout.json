@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\author_s_desk\\registration_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\author_s_desk\\registration_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\author_s_desk\\new_paper_submissions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\author_s_desk\\new_paper_submissions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Registration_Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "RelativeDocumentMoniker": "Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "RelativeToolTip": "Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Title": "New_Paper_Submissions.cshtml",
+              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\New_Paper_Submissions.cshtml",
+              "RelativeDocumentMoniker": "Conference_Website\\Views\\Author_s_Desk\\New_Paper_Submissions.cshtml",
+              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\New_Paper_Submissions.cshtml",
+              "RelativeToolTip": "Conference_Website\\Views\\Author_s_Desk\\New_Paper_Submissions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T22:18:01.668Z",
+              "WhenOpened": "2025-02-10T16:06:15.002Z",
               "EditorCaption": ""
             }
           ]

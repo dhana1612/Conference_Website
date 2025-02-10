@@ -9,26 +9,26 @@
     var messageType = TempData["MessageType"] as string;
 }
 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
 <!--Hero Section-->
 <Hero id="home">
     <!-- Background Image Section -->
     <div id="intro-example" class="img-fluid" style=" background-image: url('../Images/Photo2.jpg'); background-size: cover; background-position: center;  height: 100vh;  width: 100%; ">
         <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
             <div class="text-start px-3" style="color:#FFFFFF">
-                <h1 class="mb-3 display-5 text-center">
-                    7th International Conference
-                </h1>
+                
+                <h5 class="mb-3 display-6 text-center">
+                    7th International Conference on Computing, Networking and Data Science
+                </h5>
                 <h5 class="mb-3 display-6 text-center" style="color:yellow;">
-                    International Conference on Computing, Networking and Data Science
+                    7th April, 2025
                 </h5>
-                <h5 class="mb-3 display-5 text-center">
-                    08th February, 2025
-                </h5>
-                <h5 class="mb-3 display-5 text-center">
-                    ICCNDS - 2025 (Hybrid)
-                </h5>
+                
                 <div class="d-flex justify-content-center">
-                    <a class="btn  btn-lg m-2 startbutton text-dark fs-5 fw-bold" style="background-color:yellow;" asp-action="Registration_Details" asp-controller="Author_s_Desk" role="button">
+                    <a class="btn  btn-lg m-2 startbutton text-dark fs-5 fw-bold" style="background-color:white;" asp-action="Registration_Details" asp-controller="Author_s_Desk" role="button">
                         Register Here
                     </a>
                 </div>
@@ -148,23 +148,28 @@
                         <div class="row gy-3 ">
                             <!-- First Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="FirstName" class="form-control fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name *" required />
+                                <input asp-for="FirstName" class="form-control fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name *"  />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
                             </div>
                             <!-- Last Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="LastName" class="form-control fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name *" required />
+                                <input asp-for="LastName" class="form-control fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name *"  />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
                             </div>
                             <!-- Email -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="Email" class="form-control fs-5 placeholder-white" name="email" id="email" placeholder="E-mail *" required />
+                                <input asp-for="Email" class="form-control fs-5 placeholder-white" name="Email" id="email" placeholder="E-mail *"  />
+                                `<span asp-validation-for="Email" class="text-danger"></span>
                             </div>
                             <!-- Phone Number -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="PhoneNumber" class="form-control fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number *" required />
+                                <input asp-for="PhoneNumber" class="form-control fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number *"  />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                             </div>
                             <!-- Message -->
                             <div class="col-12">
-                                <textarea asp-for="Message" class="form-control fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="3" required></textarea>
+                                <textarea asp-for="Message" class="form-control fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="3" ></textarea>
+                                <span asp-validation-for="Message" class="text-danger"></span>
                             </div>
 
                             <!-- Submit Button -->
@@ -182,15 +187,15 @@
                 <div class="contact-information">
                     <div class="mb-3">
                         <h5 class="mb-1 text-primary fs-5 fw-bold">Address:</h5>
-                        <p class="fs-4">184 Main Collins Street</p>
+                        <p class="fs-4">7th Main Cross Street</p>
                     </div>
                     <div class="mb-3">
                         <h5 class="mb-1 text-primary fs-5 fw-bold">Phone:</h5>
-                        <p class="fs-4">(226) 446 9371</p>
+                        <p class="fs-4"> 9554231589</p>
                     </div>
                     <div class="mb-3">
                         <h5 class="mb-1 text-primary fs-5 fw-bold">Email:</h5>
-                        <p class="fs-4">confer@gmail.com</p>
+                        <p class="fs-4">dprsl@gmail.com</p>
                     </div>
 
                 </div>
