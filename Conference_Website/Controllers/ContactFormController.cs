@@ -6,6 +6,7 @@ using static Conference_Website.NewPaperSubmissionDetailscs;
 
 namespace Conference_Website.Controllers
 {
+    //ContactFormController contain all action method related email
     public class ContactFormController : Controller
     {
         [HttpPost]

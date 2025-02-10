@@ -4,6 +4,7 @@ namespace Conference_Website
 {
     public class Email_Client_To_Admin
     {
+        //Client Sent there concern to product owner through mail
         public bool email_Client_To_Admin(string userEmail, string userName, long Phonenumber, string queryMessage)
         {
             try

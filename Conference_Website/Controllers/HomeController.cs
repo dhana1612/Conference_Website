@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace Conference_Website.Controllers
 {
+    //HomeController contain all action related to Home page
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

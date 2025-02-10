@@ -4,6 +4,7 @@ namespace Conference_Website
 {
     public class ResponseEmail
     {
+        //Client get acknowledge mail after there sent concern / paper submission
         public bool responseEmail(string userEmail)
         {
             try

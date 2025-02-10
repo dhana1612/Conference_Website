@@ -2,6 +2,7 @@
 
 namespace Conference_Website.Models
 {
+    //Paper submission Model
     public class NewPaperSubmission
     {
         [Required(ErrorMessage = "Paper Title is required.")]

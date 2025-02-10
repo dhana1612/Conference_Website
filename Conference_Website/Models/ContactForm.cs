@@ -2,6 +2,7 @@
 
 namespace Conference_Website.Models
 {
+    //Contact Model
     public class ContactForm
     {
         [Required(ErrorMessage = "First Name is required.")]

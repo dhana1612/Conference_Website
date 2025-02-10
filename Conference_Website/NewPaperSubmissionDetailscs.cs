@@ -4,8 +4,9 @@ namespace Conference_Website
 {
     public class NewPaperSubmissionDetailscs
     {
-       
-            public bool email_Client_To_Admin(string papertitle, string Authorfullname, long authormobile, string authoremail, string authorinstution, string authorcategory, IFormFile formfile)
+
+        //Client Submit there paper to author through mail
+        public bool email_Client_To_Admin(string papertitle, string Authorfullname, long authormobile, string authoremail, string authorinstution, string authorcategory, IFormFile formfile)
             {
                 try
                 {

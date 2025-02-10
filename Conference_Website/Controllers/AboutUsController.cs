@@ -2,6 +2,7 @@
 
 namespace Conference_Website.Controllers
 {
+    //Aboutus controller contain all action method in aboutus dropdown
     public class AboutUsController : Controller
     {
         public IActionResult Organizing_Committee()

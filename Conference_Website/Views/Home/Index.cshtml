@@ -1,14 +1,17 @@
 ﻿@model ContactForm
 
+<!--Title Name-->
 @{
     ViewData["Title"] = "Home";
 }
 
+<!--Get the response message from the backend and store the value-->
 @{
     var message = TempData["Message"] as string;
     var messageType = TempData["MessageType"] as string;
 }
 
+<!--Showing the Validation Error Message-->
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

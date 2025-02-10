@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,19 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Dockerfile",
-              "RelativeDocumentMoniker": "Conference_Website\\Dockerfile",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Dockerfile",
-              "RelativeToolTip": "Conference_Website\\Dockerfile",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwB8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-10T16:33:37.281Z",
-              "EditorCaption": ""
             }
           ]
         },

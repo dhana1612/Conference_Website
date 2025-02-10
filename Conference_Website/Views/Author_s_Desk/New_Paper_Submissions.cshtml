@@ -1,16 +1,20 @@
 @model NewPaperSubmission
 
+<!--Showing the Validation Error Message-->
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+
+<!--Get the response message from the backend and store the value-->
 @{
     var message = TempData["Message"] as string;
     var messageType = TempData["MessageType"] as string;
 }
+
+<!--Title name-->
 @{
     ViewData["Title"] = "Paper Submission";
 }
-
 
 <!-- Background Image Section -->
 <div id="intro-example" class="img-fluid" style=" height: 30vh; margin-top:70px; width: 100%; background-image: url('../Images/Photo17.jpeg'); background-size: cover; background-position: center; ">
@@ -22,6 +26,7 @@
     </div>
 </div>
 
+<!--Contact Section-->
 <div class="container my-5">
 
     <div class="mb-4 fs-5">
@@ -101,7 +106,7 @@
     </div>
 </div>
 
-
+<!--Venue Section-->
 <section class="container-fluid text-dark p-5" style="background-image: url('../Images/Photo23.jpg'); background-size: cover; background-position: center;">
 
     <div class="container p-5 rounded-3 box-shadow">

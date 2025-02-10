@@ -1,12 +1,14 @@
 ﻿@model ContactForm
+
+<!--Title Name-->
 @{
     ViewData["Title"] = "Contact us";
 }
 
+<!--Showing the Validation Error Message-->
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
-
 
 <!-- Background Image Section -->
 <div id="intro-example" class="img-fluid " style=" height: 30vh; margin-top:70px; width: 100%; background-image: url('../Images/Photo22.jpg'); background-size: cover; background-position: center; ">
@@ -15,7 +17,7 @@
     </div>
 </div>
 
-
+<!--Get the response message from the backend and store the value-->
 @{
     var message = TempData["Message"] as string;
     var messageType = TempData["MessageType"] as string;
