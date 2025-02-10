@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Conference_Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+921ab36c569320afb606881c2e820d9015f0863d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a69b096ab96006437de67166b3b1e6e4a112179c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Conference_Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Conference_Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
