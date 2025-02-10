@@ -18,7 +18,7 @@ COPY ["Conference_Website/Conference_Website.csproj", "Conference_Website/"]
 RUN dotnet restore "/Conference_Website/Conference_Website.csproj"
 COPY . .
 WORKDIR "/src/Conference_Website"
-RUN dotnet build "Conference_Website/Conference_Website.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+RUN dotnet build "Conference_Website/Conference_Website/Conference_Website.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
