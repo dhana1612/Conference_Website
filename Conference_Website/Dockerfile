@@ -15,15 +15,15 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0-windowsservercore-ltsc2019 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Conference_Website/Conference_Website.csproj", "Conference_Website/"]
-RUN dotnet restore "./Conference_Website/Conference_Website.csproj"
+RUN dotnet restore ".Conference_Website/Conference_Website/Conference_Website.csproj"
 COPY . .
 WORKDIR "/src/Conference_Website"
-RUN dotnet build "./Conference_Website.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+RUN dotnet build ".Conference_Website/Conference_Website.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Conference_Website.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish ".Conference_Website/Conference_Website.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
