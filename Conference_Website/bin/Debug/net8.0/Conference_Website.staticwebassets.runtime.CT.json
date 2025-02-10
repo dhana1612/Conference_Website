@@ -165,11 +165,11 @@
             },
             "Patterns": null
           },
-          "s6.jpeg": {
+          "s6.jpg": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "Images/s6.jpeg"
+              "SubPath": "Images/s6.jpg"
             },
             "Patterns": null
           },
@@ -178,6 +178,14 @@
             "Asset": {
               "ContentRootIndex": 0,
               "SubPath": "Images/s7.jpeg"
+            },
+            "Patterns": null
+          },
+          "s7.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Images/s7.jpg"
             },
             "Patterns": null
           },
