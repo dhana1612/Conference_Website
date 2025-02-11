@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\email_client_to_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\email_client_to_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "script.js",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\js\\script.js",
-              "RelativeDocumentMoniker": "Conference_Website\\wwwroot\\js\\script.js",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\js\\script.js",
-              "RelativeToolTip": "Conference_Website\\wwwroot\\js\\script.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-10T21:17:50.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Conference_Website\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Conference_Website\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAkwHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T21:04:19.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Dockerfile",
-              "RelativeDocumentMoniker": "Conference_Website\\Dockerfile",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Dockerfile",
-              "RelativeToolTip": "Conference_Website\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-10T16:33:37.281Z",
+              "Title": "Email_Client_To_Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Email_Client_To_Admin.cs",
+              "RelativeDocumentMoniker": "Conference_Website\\Email_Client_To_Admin.cs",
+              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Email_Client_To_Admin.cs",
+              "RelativeToolTip": "Conference_Website\\Email_Client_To_Admin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T21:56:24.208Z",
               "EditorCaption": ""
             }
           ]

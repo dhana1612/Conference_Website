@@ -136,8 +136,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -160,6 +159,10 @@
         "assetTargetFallback": true,
         "warn": true,
         "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.100-rc.1.24452.12, 9.0.100-rc.1.24452.12]"
+          },
           {
             "name": "Microsoft.NETCore.App.Host.win-x86",
             "version": "[8.0.8, 8.0.8]"
