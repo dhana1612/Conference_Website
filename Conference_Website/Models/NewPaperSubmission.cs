@@ -15,6 +15,7 @@ namespace Conference_Website.Models
         public long AuthorMobile { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string AuthorEmail { get; set; }
 
         [Required(ErrorMessage = "Institution Name is required.")]
