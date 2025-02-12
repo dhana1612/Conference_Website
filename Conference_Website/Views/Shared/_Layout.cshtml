@@ -24,8 +24,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
-                    <ul class="navbar-nav fs-5 align-items-center pe-5">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end ">
+                    <ul class="navbar-nav fs-5 align-items-start ps-5">
                         <li class="nav-item pe-4">
                             <a class="nav-link text-white @(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")" asp-action="Index" asp-controller="Home">Home</a>
                         </li>
@@ -61,11 +61,12 @@
                             <a class="nav-link text-white @(ViewContext.RouteData.Values["action"].ToString() == "Speaker" ? "active" : "")" asp-action="Speaker" asp-controller="Home">Speakers</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item pe-4">
                             <a class="nav-link text-white @(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")" asp-action="Contact" asp-controller="Home">Contact Us</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -87,7 +88,7 @@
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold fs-4">
+                        <h6 class="text-uppercase mb-4 text-black fw-bold fs-4">
                             Company name
                         </h6>
                         <p>
@@ -102,7 +103,7 @@
 
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold fs-4">Products</h6>
+                        <h6 class="text-uppercase mb-4 text-black fw-bold fs-4">Products</h6>
                          <p class="text-white">MDBootstrap</p>
                          <p class="text-white">MDWordPress</p>
                          <p class="text-white">BrandFlow</p>
@@ -111,22 +112,22 @@
                     </div>
                     <!-- Grid column -->
 
-                    <hr class="w-100 clearfix d-md-none" />
+                    
 
                     <!-- Grid column -->
                     <hr class="w-100 clearfix d-md-none" />
 
                     <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold fs-4">Contact</h6>
+                        <h6 class="text-uppercase mb-4 text-black fw-bold fs-4">Contact</h6>
                         <p><i class="fas fa-home mr-3"></i> 7th Main Cross Street ,Chennai</p>
                         <p><i class="fas fa-envelope mr-3"></i> dprsl@gmail.com</p>
                         <p><i class="fas fa-phone mr-3"></i> + 91 9554231589</p>
                     </div>
                     <!-- Grid column -->
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold fs-4">Follow us</h6>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-3">
+                        <h6 class="text-uppercase mb-4 text-black fw-bold fs-4">Follow us</h6>
 
                         <!-- Facebook -->
                         <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button">

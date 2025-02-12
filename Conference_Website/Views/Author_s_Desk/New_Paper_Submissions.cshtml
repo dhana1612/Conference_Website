@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<!--Contact Section-->
+<!--Paper Submission Section-->
 <div class="container my-5">
 
     <div class="mb-4 fs-5">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="mb-5 fs-5">
                             <label class="form-label fw-bold"> Upload Paper *</label>
-                            <input asp-for="PaperFile" name="PaperFile" class="form-control border-primary shadow-sm fs-5">
+                            <input asp-for="PaperFile" name="PaperFile" class="form-control border-primary shadow-sm fs-5" accept=".pdf,.doc,.docx">
                             <span asp-validation-for="PaperFile" class="text-danger"></span>
                         </div>
                         <div class="d-grid">
