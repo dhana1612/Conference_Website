@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wt8qrkFGjRiPPdTo5Q9aBtk9S0PkoNcC8UbKM0FIky0=",
+  "Hash": "GYD1/jG5IC2DIYDLhior+ZDJNal3lcdx+GiSkANXf+E=",
   "Source": "Conference_Website",
   "BasePath": "_content/Conference_Website",
   "Mode": "Default",
@@ -59,6 +59,48 @@
       "OriginalItemSpec": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Conference_Website.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\HeroStyleSheet.css",
+      "SourceId": "Conference_Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\",
+      "BasePath": "_content/Conference_Website",
+      "RelativePath": "css/HeroStyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vk96dzdp6t",
+      "Integrity": "AeHX3V+8+qnfi8416Y3IpCxKywZgPOTk3PnMmoINHkI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\HeroStyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\Section.css",
+      "SourceId": "Conference_Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\",
+      "BasePath": "_content/Conference_Website",
+      "RelativePath": "css/Section#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1txi67hot7",
+      "Integrity": "WzLfYDLHjpPWhzYZvboKbHCGVI/0kt4ZTz4uboNd3kE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Section.css"
+    },
+    {
       "Identity": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
       "SourceId": "Conference_Website",
       "SourceType": "Discovered",
@@ -94,19 +136,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qo4tmslnf7",
-      "Integrity": "+pJxDlz4soBUgwIZykcE63c5SHz24FaTw6gOc6JgSsw=",
+      "Fingerprint": "apyz6xewyh",
+      "Integrity": "kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\logo.png",
+      "Identity": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Logo.png",
       "SourceId": "Conference_Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\",
       "BasePath": "_content/Conference_Website",
-      "RelativePath": "Images/logo#[.{fingerprint}]?.png",
+      "RelativePath": "Images/Logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,11 +157,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wb02fy5u1d",
-      "Integrity": "1IroJSVo6+mdnRtF2tqaua4iL3CJ5AWJ0Zx8n/pLbHQ=",
+      "Fingerprint": "apyz6xewyh",
+      "Integrity": "kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\logo.png"
+      "OriginalItemSpec": "wwwroot\\Images\\Logo.png"
     },
     {
       "Identity": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo1.png",
@@ -1805,7 +1847,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 19:03:01 GMT"
+          "Value": "Thu, 20 Feb 2025 23:56:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1850,7 +1892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 19:03:01 GMT"
+          "Value": "Thu, 20 Feb 2025 23:56:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1895,7 +1937,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 19:03:01 GMT"
+          "Value": "Thu, 20 Feb 2025 23:56:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1932,7 +1974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 19:03:01 GMT"
+          "Value": "Thu, 20 Feb 2025 23:56:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1943,6 +1985,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-jeNogIxnZ/WrFiC5qcxBUMoXr9fqb4KHDiReBqQxI8o="
+        }
+      ]
+    },
+    {
+      "Route": "css/HeroStyleSheet.css",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\HeroStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AeHX3V+8+qnfi8416Y3IpCxKywZgPOTk3PnMmoINHkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 23:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AeHX3V+8+qnfi8416Y3IpCxKywZgPOTk3PnMmoINHkI="
+        }
+      ]
+    },
+    {
+      "Route": "css/HeroStyleSheet.vk96dzdp6t.css",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\HeroStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AeHX3V+8+qnfi8416Y3IpCxKywZgPOTk3PnMmoINHkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 23:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vk96dzdp6t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/HeroStyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AeHX3V+8+qnfi8416Y3IpCxKywZgPOTk3PnMmoINHkI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Section.1txi67hot7.css",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\Section.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WzLfYDLHjpPWhzYZvboKbHCGVI/0kt4ZTz4uboNd3kE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 23:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1txi67hot7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Section.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WzLfYDLHjpPWhzYZvboKbHCGVI/0kt4ZTz4uboNd3kE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Section.css",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\Section.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WzLfYDLHjpPWhzYZvboKbHCGVI/0kt4ZTz4uboNd3kE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 23:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WzLfYDLHjpPWhzYZvboKbHCGVI/0kt4ZTz4uboNd3kE="
         }
       ]
     },
@@ -1969,7 +2175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:00:29 GMT"
+          "Value": "Thu, 20 Feb 2025 22:13:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2006,7 +2212,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:00:29 GMT"
+          "Value": "Thu, 20 Feb 2025 22:13:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2029,6 +2235,51 @@
       ]
     },
     {
+      "Route": "favicon.apyz6xewyh.png",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "948072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 22:19:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apyz6xewyh"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508="
+        }
+      ]
+    },
+    {
       "Route": "favicon.png",
       "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\favicon.png",
       "Selectors": [],
@@ -2039,7 +2290,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "108976"
+          "Value": "948072"
         },
         {
           "Name": "Content-Type",
@@ -2047,11 +2298,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+pJxDlz4soBUgwIZykcE63c5SHz24FaTw6gOc6JgSsw=\""
+          "Value": "\"kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 18:45:32 GMT"
+          "Value": "Thu, 20 Feb 2025 22:19:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2061,13 +2312,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+pJxDlz4soBUgwIZykcE63c5SHz24FaTw6gOc6JgSsw="
+          "Value": "sha256-kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508="
         }
       ]
     },
     {
-      "Route": "favicon.qo4tmslnf7.png",
-      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\favicon.png",
+      "Route": "Images/Logo.apyz6xewyh.png",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2076,7 +2327,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "108976"
+          "Value": "948072"
         },
         {
           "Name": "Content-Type",
@@ -2084,11 +2335,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+pJxDlz4soBUgwIZykcE63c5SHz24FaTw6gOc6JgSsw=\""
+          "Value": "\"kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 18:45:32 GMT"
+          "Value": "Thu, 20 Feb 2025 22:19:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2098,21 +2349,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qo4tmslnf7"
+          "Value": "apyz6xewyh"
         },
         {
           "Name": "label",
-          "Value": "favicon.png"
+          "Value": "Images/Logo.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+pJxDlz4soBUgwIZykcE63c5SHz24FaTw6gOc6JgSsw="
+          "Value": "sha256-kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508="
         }
       ]
     },
     {
-      "Route": "Images/logo.png",
-      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\logo.png",
+      "Route": "Images/Logo.png",
+      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2121,7 +2372,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78199"
+          "Value": "948072"
         },
         {
           "Name": "Content-Type",
@@ -2129,11 +2380,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1IroJSVo6+mdnRtF2tqaua4iL3CJ5AWJ0Zx8n/pLbHQ=\""
+          "Value": "\"kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 00:50:31 GMT"
+          "Value": "Thu, 20 Feb 2025 22:19:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2143,52 +2394,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1IroJSVo6+mdnRtF2tqaua4iL3CJ5AWJ0Zx8n/pLbHQ="
-        }
-      ]
-    },
-    {
-      "Route": "Images/logo.wb02fy5u1d.png",
-      "AssetFile": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "78199"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1IroJSVo6+mdnRtF2tqaua4iL3CJ5AWJ0Zx8n/pLbHQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 00:50:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wb02fy5u1d"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1IroJSVo6+mdnRtF2tqaua4iL3CJ5AWJ0Zx8n/pLbHQ="
+          "Value": "sha256-kpucBns48PezAU6HvHB4m1MRfq7dFNxFipPrGQZU508="
         }
       ]
     },

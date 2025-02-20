@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Conference_Website.7zk5jc4hek.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo.png"
+    },
+    {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\Photo1.png",
       "PackagePath": "staticwebassets\\Images\\Photo1.png"
     },
@@ -49,10 +53,6 @@
       "PackagePath": "staticwebassets\\Images\\Photo5.jpg"
     },
     {
-      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\logo.png",
-      "PackagePath": "staticwebassets\\Images\\logo.png"
-    },
-    {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\s1.jpg",
       "PackagePath": "staticwebassets\\Images\\s1.jpg"
     },
@@ -87,6 +87,14 @@
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\Images\\s8.jpg",
       "PackagePath": "staticwebassets\\Images\\s8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\HeroStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\HeroStyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\Section.css",
+      "PackagePath": "staticwebassets\\css\\Section.css"
     },
     {
       "Id": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",

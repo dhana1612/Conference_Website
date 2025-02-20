@@ -1,8 +1,5 @@
 ﻿using Conference_Website.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Net;
-using static Conference_Website.NewPaperSubmissionDetailscs;
 
 namespace Conference_Website.Controllers
 {

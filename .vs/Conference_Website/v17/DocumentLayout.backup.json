@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\author_s_desk\\registration_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\author_s_desk\\registration_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\author_s_desk\\journal_publication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\author_s_desk\\journal_publication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|c:\\users\\morning shift\\source\\repos\\conference_website\\conference_website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37CF2703-D123-4E9D-BB4F-EB6D8DA19F95}|Conference_Website\\Conference_Website.csproj|solutionrelative:conference_website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,52 +31,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Registration_Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "RelativeDocumentMoniker": "Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "RelativeToolTip": "Conference_Website\\Views\\Author_s_Desk\\Registration_Details.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Conference_Website\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Conference_Website\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T16:21:25.929Z",
+              "WhenOpened": "2025-02-20T23:52:26.734Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Journal_Publication.cshtml",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Journal_Publication.cshtml",
-              "RelativeDocumentMoniker": "Conference_Website\\Views\\Author_s_Desk\\Journal_Publication.cshtml",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Author_s_Desk\\Journal_Publication.cshtml",
-              "RelativeToolTip": "Conference_Website\\Views\\Author_s_Desk\\Journal_Publication.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T01:02:32.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Conference_Website\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Conference_Website\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-12T01:00:22.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Conference_Website\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Morning Shift\\source\\repos\\Conference_Website\\Conference_Website\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Conference_Website\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAHwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T00:56:37.638Z"
             }
           ]
         },
